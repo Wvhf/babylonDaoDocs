@@ -1,0 +1,30 @@
+.creators-container {
+  display: flex;
+  justify-content: center;
+
+  .person {
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100px;
+      height: 135px;
+      border-radius: 50%;
+      margin-bottom: 5px;
+    }
+
+    .name {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    .description {
+      font-size: 1em;
+    }
+  }
+}
+
+

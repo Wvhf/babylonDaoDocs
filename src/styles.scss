@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+:root {
+  font-size: 62.5%; // 10px
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width:1280px) {
+  :root {
+    font-size: 56.25%; // 9px
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    font-size: 50%; // 8px
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  :root {
+    font-size: 25%; // 7px
+  }
+}
+
+
+html, body {
+  font-size: 1.6rem;
+}
+
+body {
+  margin: 0;
+  font-family: aniron-bold, Arial, Helvetica, sans-serif;
+  background-color: #C0C0C0;
+  //background-color: #BEA377;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+@font-face {
+  font-family: "aniron";
+  src: local("aniron"), url(/assets/fonts/anirm.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "aniron-bold";
+  src: local("aniron-bold"), url(/assets/fonts/anirb.ttf) format("truetype");
+}

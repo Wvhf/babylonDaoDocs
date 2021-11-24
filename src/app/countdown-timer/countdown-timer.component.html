@@ -1,0 +1,27 @@
+<div class="timer-container">
+  <audio class="music" src="assets/babylon-music.mp3" autoplay controls></audio>
+  <img class="launch" src="assets/launch2.png"/>
+  <div class="title">COMING SOON</div>
+  <h1>BABYLON DAO</h1>
+  <div class="time-border">
+    <div class="days">
+      <div class="time">{{getFormattedTime(days)}}</div>
+      <div><em>Days</em></div>
+    </div>
+    <span class="seperator">:</span>
+    <div class="hours">
+      <div class="time">{{getFormattedTime(hours)}}</div>
+      <div><em>Hours</em></div>
+    </div>
+    <span class="seperator">:</span>
+    <div class="minutes">
+      <div class="time">{{minutes}}</div>
+      <div><em>Minutes</em></div>
+    </div>
+    <span class="seperator">:</span>
+    <div class="seconds">
+      <div class="time">{{seconds}}</div>
+      <div><em>Seconds</em></div>
+    </div>
+  </div>
+</div>

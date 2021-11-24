@@ -1,0 +1,22 @@
+.seperator {
+  width: 50%;
+  border-bottom: 1px solid #DCDCDC;
+  margin: 25px auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-info {
+  font-family: sans-serif;
+}
+
+.image {
+  width: 100px;
+  cursor: pointer;
+  margin: 1em;
+}
